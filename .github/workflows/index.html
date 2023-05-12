@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>520浪漫网页</title>
+	<style>
+	body {
+	  height: 100%;
+	  margin: 0;
+	  background-color: #f4a7b7;
+	  background-image: linear-gradient(315deg, #f4a7b7 0%, #d4d4d4 74%);
+	}
+
+	.container {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  font-family: 'Times New Roman', Times, serif;
+	}
+
+	.box {
+	  background-color: white;
+	  padding: 30px;
+	  border-radius: 20px;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	}
+
+	.heart {
+	  margin: 20px auto;
+	  width: 80px;
+	  height: 80px;
+	  position: relative;
+	  transform: rotate(-45deg);
+	  background: pink;
+	}
+
+	.heart:before,
+	.heart:after {
+	  content: "";
+	  background: pink;
+	  border-radius: 50% 50% 0 0;
+	  position: absolute;
+	  top: 0;
+	  width: 80px;
+	  height: 80px;
+	}
+
+	.heart:before {
+		left: 50px;
+		transform: rotate(90deg);
+	}
+
+	.heart:after {
+	  top: -50px;
+	  left: 0px;
+	}
+
+	h1 {
+	  color: #FF69B4;
+	  font-size: 3em;
+	  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	}
+
+	</style>
+</head>
+<body>
+	
+
+	<div class="container">
+		<div class="box">
+		  <div class="heart"></div>
+		  <h1>我爱你</h1>
+		  <h2>520快乐</h2>
+		  <p>一生有你，不离不弃</p>
+		</div>
+	</div>
+
+</body>
+</html>
